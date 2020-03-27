@@ -26,6 +26,7 @@ let package = Package(
   products: [
     .library(
       name: "FBLPromises",
+      type: .dynamic,
       targets: [
         "FBLPromises",
       ]
@@ -38,6 +39,7 @@ let package = Package(
     ),
     .library(
       name: "Promises",
+      type: .dynamic,
       targets: [
         "Promises",
       ]
